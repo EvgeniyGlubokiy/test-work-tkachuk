@@ -1,0 +1,29 @@
+@mixin form-icon-style{
+    background-color: #f5f5f5;
+    background-repeat: no-repeat;
+    background-position:16px 16px;
+    background-size: 15px 15px;
+}
+@mixin arrow-button-style{
+    width: 50px;
+      height: 50px;
+      padding: 0;
+      font-size: 0;
+      outline: none;
+      border: solid 1px #adb2b7;
+      background-color: #fafafa;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 20px 20px;
+      border-radius: 5px;
+      position: absolute;
+      transition: 0.3s linear;
+      &:hover{
+        border: solid 1px $orange-color;
+        background-color: $orange-color; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 20px 20px;
+        cursor: pointer;
+    }
+}    
